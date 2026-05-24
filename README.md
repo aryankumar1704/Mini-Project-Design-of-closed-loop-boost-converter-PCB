@@ -11,3 +11,5 @@ The closed-loop architecture feeds a scaled output voltage ($V_{scaled} \approx 
 <img width="1442" height="512" alt="image" src="https://github.com/user-attachments/assets/aeca7618-c5af-4a5a-b731-d891a147f459" />
 ## Experimental Results & Performance
 Hardware validation using a Digital Storage Oscilloscope (DSO) confirmed a stable output voltage holding between $23.8\text{ V}$ and $24.1\text{ V}$ under full load, with slight drops attributed to the MUR1560 diode forward voltage and inductor ESR. The system demonstrated robust closed-loop performance; when the input voltage was varied between $10\text{ V}$ and $14\text{ V}$, the PI controller adjusted the PWM in real-time to keep the output within $\pm 2\%$ of the $24\text{ V}$ target. Transient load step-down overshoots were corrected by the integral loop within $15\text{ ms}$. Thermal management protocols—including mounting the IRF740 MOSFET and MUR1560 diode on aluminum heatsinks—successfully maintained operating temperatures below $60^\circ\text{C}$.
+<img width="1600" height="692" alt="image" src="https://github.com/user-attachments/assets/6ad66d04-38e7-405e-91d4-67d3a8ba31b4" />
+
